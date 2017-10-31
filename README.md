@@ -20,7 +20,8 @@
 * [appbaseio/mirage](https://github.com/appbaseio/mirage) is a 🔎 GUI for composing Elasticsearch queries
 * [exceptionless/Exceptionless](https://github.com/exceptionless/Exceptionless) is an error (exceptions) collecting and reporting server with client bindings for a various programming languages
 * [searchkit/searchkit](https://github.com/searchkit/searchkit) is a UI framework based on React to build awesome search experiences with Elasticsearch
-* [appbaseio/reactivemaps](https://opensource.appbase.io/reactivemaps) is a data components library for building Map UIs (built on Elasticsearch)
+* [appbaseio/reactivemaps](https://opensource.appbase.io/reactivemaps) is a React based UI components library for building Airbnb / Foursquare like Maps
+* [appbaseio/reactivesearch](https://opensource.appbase.io/reactivesearch) is a React based UI components library for building Amazon / Yelp like Search
 * [Simple File Server](https://github.com/pitchpoint-solutions/sfs) is an Openstack Swift compatible distributed object store that can serve and securely store billions of large and small files using minimal resources.
 * [logagent](https://www.npmjs.com/package/@sematext/logagent) a log shipper to parse and ship logs to Elasticsearch including bulk indexing, disk buffers and log format detection. 
 * [ItemsAPI](https://github.com/itemsapi/itemsapi) simplified search API for web and mobile (based on Elasticsearch and Express.js)
@@ -33,7 +34,9 @@
 * [ES-mode](https://github.com/dakrone/es-mode) An Emacs major mode for interacting with Elasticsearch (similar to Sense)
 * [Elasticsearch Cheatsheet](http://elasticsearch-cheatsheet.jolicode.com/) Examples for the most used queries, API and settings for all major version of Elasticsearch
 * [Elasticstat](https://github.com/objectrocket/elasticstat) CLI tool displaying monitoring informations like htop
-* [Elastic for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ria.elastic) An extension for developing Elasticsearch queries like Kibana and Sense extention in Visual Studio Code
+* [Elastic for Visual Studio Code](https://github.com/hsen-dev/vscode-elastic) An extension for developing Elasticsearch queries like Kibana and Sense extention in Visual Studio Code
+* [Elastic Builder](https://github.com/sudo-suhas/elastic-builder) A Node.js implementation of the Elasticsearch DSL
+* [Bodybuilder](https://github.com/danpaz/bodybuilder) A Node.js elasticsearch query body builder
 
 ### Import and Export
 * [Knapsack plugin](https://github.com/jprante/elasticsearch-knapsack)  is an "swiss knife" export/import plugin for Elasticsearch
@@ -44,10 +47,11 @@
 ## Elasticsearch plugins
 ### Cluster
 * [sscarduzio/elasticsearch-readonlyrest-plugin](https://github.com/sscarduzio/elasticsearch-readonlyrest-plugin) Safely expose Elasticsearch REST API directly to the public
-* [appbaseio/dejaVu](https://github.com/appbaseio/dejaVu/tree/dev) A modern, open-source data browser for Elasticsearch; [landing page](https://appbaseio.github.io/dejaVu/)  
+* [appbaseio/dejavu](https://github.com/appbaseio/dejavu/tree/dev) A modern web GUI for Elasticsearch; [landing page](https://opensource.appbase.io/dejavu/)  
 * [mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head) is a powerful and essential plugin for managing your cluster, indices and mapping
 * [Bigdesk](http://bigdesk.org/) - Live charts and statistics for elasticsearch cluster
 * [Elastic HQ](http://www.elastichq.org/) - Elasticsearch cluster management console with live monitoring and beautiful UI
+* [Cerebro](https://github.com/lmenezes/cerebro) is an open source(MIT License) elasticsearch web admin tool. Supports ES 5.x
 * [Kopf](https://github.com/lmenezes/elasticsearch-kopf) - Another management plugin that have REST console and *manual* shard allocation
 * [Search Guard](https://github.com/floragunncom/search-guard) - Elasticsearch security for free
 
@@ -59,6 +63,7 @@
 * [elastic/elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop) - Elasticsearch real-time search and analytics natively integrated with Hadoop (and Hive)
 * [jprante/elasticsearch-jdbc](https://github.com/jprante/elasticsearch-jdbc) - JDBC importer for Elasticsearch
 * [pandasticsearch](https://github.com/onesuper/pandasticsearch) - An Elasticsearch client exposing DataFrame API
+* [monstache](https://github.com/rwynn/monstache) - Go daemon that syncs MongoDB to Elasticsearch in near realtime
 
 ### You know, for search 
 * [jprante/elasticsearch-plugin-bundle](https://github.com/jprante/elasticsearch-plugin-bundle) A plugin that consists of a compilation of useful Elasticsearch plugins related to indexing and searching documents
@@ -70,12 +75,13 @@
 ### Kibana Visualization plugins
 * [nbs-system/mapster](https://github.com/nbs-system/mapster) - a visualization which allows to create live event 3d maps in Kibana
 * [Kibana Tag Cloud Plugin](https://github.com/stormpython/tagcloud) - tag cloud visualization plugin based on d3-cloud plugin
+* [LogTrail](https://github.com/sivasamyk/logtrail) - a plugin for Kibana to view, analyze, search and tail log events from multiple hosts in realtime with devops friendly interface inspired by Papertrail
 
 ## Discussions and social media
 * [/r/elasticsearch](https://www.reddit.com/r/elasticsearch)
 * [Elasticsearch forum](https://discuss.elastic.co/)
 * [Stackoverflow](http://stackoverflow.com/tags/elasticsearch/hot)
-* [Books on Amazon](http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=elasticsearch) does not fit well into this category, but worth to check this out!
+* [Books on Amazon](http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=elasticsearch) does not fit well into this category, but worth checking out!
 * TODO: Put some good twitter accounts
 
 ## Tutorials
@@ -154,9 +160,11 @@ Streaming Search on Tweets: Storm, Elasticsearch, and Redis
 * [Structured logging with ELK - part 1](http://engineering.laterooms.com/structured-logging-with-elk-part-1/)
 * [Search for :yum: Emoji with Elasticsearch :mag_right:](http://jolicode.com/blog/search-for-emoji-with-elasticsearch)
 * [Complete Guide to the ELK Stack](http://logz.io/learn/complete-guide-elk-stack/)
+* [logiq](https://github.com/sloniki/logiq) - Simple WebUI Monitoring Tool for Logstash ver. 5.0 and up
 
 ## Videos
 ### Overviews
+* [Elasticsearch for logs and metrics: A deep dive – Velocity 2016](https://www.youtube.com/watch?v=44QQEI9CJQQ) by Sematext Developers
 * [Elasticsearch in action Thijs Feryn](https://www.youtube.com/watch?v=oPObRc8tHgQ) a beginner overview
 * [Getting Down and Dirty with ElasticSearch by Clinton Gormley ](https://www.youtube.com/watch?v=7FLXjgB0PQI)
 * [How we scaled Raygun](https://raygun.io/blog/2014/05/talk-how-we-scaled-raygun-using-technologies-like-elastic-search-featuring-iron-man/)
@@ -173,8 +181,10 @@ Streaming Search on Tweets: Storm, Elasticsearch, and Redis
 * [Working with Elasticsearch - Search, Aggregate, Analyze, and Scale Large Volume Datastores](http://shop.oreilly.com/product/0636920043898.do) -  O'Reilly Media
 * [End-to-end Recommender System with Spark and Elasticsearch](https://www.youtube.com/watch?v=sa_Y488vj0M) by Nick Pentreath & Jean-François Puget. [Slide deck](http://www.slideshare.net/sparktc/spark-ml-meedup-pentreath-puget)
 
-### Configuration file samples and other gists
+### Code, configuration file samples and other gists
 * [Elasticsearch config for a write-heavy cluster](https://gist.github.com/reyjrar/4364063) - reyjrar/elasticsearch.yml
+* [chenryn/ESPL - Elastic Search Processing Language](https://github.com/chenryn/ESPL) PEG parser sample for SPL to Elasticsearch DSL
+* [thomaspatzke/EQUEL](https://github.com/thomaspatzke/EQUEL) an Elasticsearch QUEry Language, based on G4 grammar parser
 
 ## Who is using elasticsearch?
 [Yelp](http://engineeringblog.yelp.com/2015/10/how-we-use-deep-learning-to-classify-business-photos-at-yelp.html),
@@ -193,6 +203,7 @@ Streaming Search on Tweets: Storm, Elasticsearch, and Redis
 
 # Contributing
 * Make sure you are about to post a valuable resource that belongs to this list
+* Do NOT group ++Add and --Remove changes in same PR. Make them separate pull requests
 * Use spellchiker
 * All spelling and grammar corrections are welcome (except for the rule above)
 * Fork this repo, do your edits, send the pull request
